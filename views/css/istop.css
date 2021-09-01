@@ -1,0 +1,203 @@
+.badge_is_top {
+    height: 35px;
+    width: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #B6D381;
+    color: #465719;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 13px;
+    line-height: 35px;
+}
+.badge_is_top_tooltip {
+    position: absolute;
+    height:30px;
+    top:40px;
+    left:0;
+    background: #B6D381;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    width: 0;
+    font-size: 13px;
+}
+.badge_is_top:hover .badge_is_top_tooltip {
+    opacity: 1;
+    width:100px;
+}
+.badge_has_fast_shipping {
+    height: 35px;
+    width: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #FCB933;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    font-size: 13px;
+    line-height: 35px;
+}
+.badge_has_fast_shipping_tooltip {
+    position: absolute;
+    height:30px;
+    top:40px;
+    right:-90px;
+    background: #FCB933;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    width: 0;
+    font-size: 13px;
+}
+.badge_has_fast_shipping:hover .badge_has_fast_shipping_tooltip {
+    opacity: 1;
+    width:160px;
+}
+.badge_is_eko {
+    height: 35px;
+    width: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #1BCEE9;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 85px;
+    font-size: 13px;
+    line-height: 35px;
+}
+.badge_is_eko_tooltip {
+    position: absolute;
+    height:30px;
+    top:40px;
+    right:-60px;
+    background: #1BCEE9;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    width: 0;
+    font-size: 13px;
+}
+.badge_is_eko:hover .badge_is_eko_tooltip {
+    opacity: 1;
+    width:160px;
+}
+.badge_is_good_price {
+    height: 35px;
+    width: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #C8333D;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 125px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.badge_is_good_price_tooltip {
+    position: absolute;
+    height:30px;
+    top:40px;
+    right:-20px;
+    background: #C8333D;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    width: 0;
+    font-size: 13px;
+}
+.badge_is_good_price:hover .badge_is_good_price_tooltip {
+    opacity: 1;
+    width:100px;
+}
+.badge_is_made_in_lt {
+    height: 35px;
+    width: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #FB8D21;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 165px;
+    font-size: 13px;
+    line-height: 35px;
+}
+.badge_is_made_in_lt_tooltip {
+    position: absolute;
+    height:30px;
+    top:40px;
+    right:-20px;
+    background: #FB8D21;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    width: 0;
+}
+.badge_is_made_in_lt:hover .badge_is_made_in_lt_tooltip {
+    opacity: 1;
+    width:150px;
+}
+
+.badge_is_recommended {
+    height: 35px;
+    width: 35px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #0E3BE3;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 205px;
+    font-size: 13px;
+    line-height: 35px;
+}
+.badge_is_recommended_tooltip {
+    position: absolute;
+    height:30px;
+    top:40px;
+    right:0;
+    background: #0E3BE3;
+    border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    width: 0;
+}
+.badge_is_recommended:hover .badge_is_recommended_tooltip {
+    opacity: 1;
+    width:200px;
+}
