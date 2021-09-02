@@ -13,7 +13,7 @@
 
     <div class="badge_has_fast_shipping">
         <div style="height: 35px; width:35px; display: flex; justify-content: center; align-items: center;">
-            <img src="modules/istop/views/templates/hook/fast.png" alt="Greitas pristatymas" style="width:31px; height: 18px;">
+            <img src="{$urls.base_url}modules/istop/views/templates/hook/fast.png" alt="Greitas pristatymas" style="width:31px; height: 18px;">
         </div>
         <span class="badge_has_fast_shipping_tooltip">Greitas pristatymas</span>
     </div>
@@ -55,7 +55,7 @@
 
     <div class="badge_is_recommended">
         <div style="height: 35px; width:35px; display: flex; justify-content: center; align-items: center;">
-            <img src="modules/istop/views/templates/hook/like.png" alt="Rekomenduojama prekė" style="width:19px;">
+            <img src="{$urls.base_url}modules/istop/views/templates/hook/like.png" alt="Rekomenduojama prekė" style="width:19px;">
         </div>
         <span class="badge_is_recommended_tooltip">Emedelynas rekomenduoja</span>
     </div>
